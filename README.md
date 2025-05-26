@@ -13,11 +13,10 @@ This project provides a complete pipeline to ingest `.jsonl`-formatted logs into
 
 ```
 .
-├── by_source/                  # Sample JSONL log files
 ├── docker-compose.yml          # Loki, Promtail, Grafana services
 ├── loki-config.yaml            # Loki configuration
 ├── promtail-config.yaml        # Promtail configuration
-├── upload_all_jsonl.py         # Python uploader for JSONL files
+├── upload_all_json.py         # Python uploader for JSONL files
 ```
 
 ## 🚀 Getting Started
